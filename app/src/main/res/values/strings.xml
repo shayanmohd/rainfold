@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">Rainfold</string>
+    <!-- The developer contact address on the Play listing, also for purchase and refund help. -->
+    <string name="support_email" translatable="false">shayanm2002@gmail.com</string>
+
+    <string name="nav_listen">Listen</string>
+    <string name="nav_mixes">Mixes</string>
+    <string name="nav_settings">Settings</string>
+    <string name="action_back">Back</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_undo">Undo</string>
+
+    <!-- Sounds -->
+    <string name="engine_white">White noise</string>
+    <string name="engine_pink">Pink noise</string>
+    <string name="engine_brown">Brown noise</string>
+    <string name="engine_green">Green noise</string>
+    <string name="engine_fan">Fan</string>
+    <string name="engine_rain">Rain</string>
+    <string name="engine_storm">Storm</string>
+    <string name="engine_wind">Wind</string>
+    <string name="engine_surf">Surf</string>
+    <string name="engine_stream">Stream</string>
+    <string name="engine_fire">Fire</string>
+    <string name="engine_air_con">Air conditioner</string>
+    <string name="engine_train">Train</string>
+    <string name="engine_crickets">Crickets</string>
+    <string name="engine_cafe">Cafe murmur</string>
+    <string name="engine_white_detail">Bright and even, good over voices</string>
+    <string name="engine_pink_detail">Balanced, like steady rain on leaves</string>
+    <string name="engine_brown_detail">Deep and soft, like a far waterfall</string>
+    <string name="engine_green_detail">Round mid tones, calm and centred</string>
+    <string name="engine_fan_detail">A box fan with a slow blade drift</string>
+    <string name="engine_rain_detail">A wash of rain with drops close by</string>
+    <string name="engine_storm_detail">Heavy rain with thunder rolling in</string>
+    <string name="engine_wind_detail">Gusts that rise and settle</string>
+    <string name="engine_surf_detail">Waves breaking every 8 to 14 seconds</string>
+    <string name="engine_stream_detail">Water running over stones</string>
+    <string name="engine_fire_detail">A low fire with crackles</string>
+    <string name="engine_air_con_detail">A steady air conditioner hum</string>
+    <string name="engine_train_detail">Rumble and paired rail clacks</string>
+    <string name="engine_crickets_detail">A warm night outside the window</string>
+    <string name="engine_cafe_detail">Distant voices and the odd cup</string>
+
+    <!-- Listen -->
+    <string name="listen_play_seed">Play brown noise</string>
+    <string name="listen_stopped">Stopped</string>
+    <string name="listen_playing">Playing</string>
+    <string name="listen_paused_call">Paused for a call or another sound</string>
+    <string name="listen_stopped_error">The phone stopped playback. See battery help.</string>
+    <string name="listen_battery_help">Battery help</string>
+    <string name="listen_dismiss">Dismiss</string>
+    <string name="listen_loading">Loading the mix</string>
+    <string name="layer_volume">Volume</string>
+    <string name="layer_tone">Tone</string>
+    <string name="layer_intensity">Intensity</string>
+    <string name="layer_remove">Remove %1$s</string>
+    <string name="layer_volume_value">%1$d percent</string>
+    <string name="tone_darker">darker tone</string>
+    <string name="tone_even">even tone</string>
+    <string name="tone_brighter">brighter tone</string>
+    <string name="fold_band">%1$s, volume %2$d percent, %3$s</string>
+    <string name="fold_band_muted">%1$s, part of the unlock, muted</string>
+    <string name="fold_hint">Drag a band up or down for volume, sideways for tone</string>
+    <string name="add_layer">Add layer</string>
+    <string name="layers_empty">Add a sound to start the mix.</string>
+    <string name="timer_chip_off">Sleep timer</string>
+    <string name="timer_fades_at">Fades at %1$s</string>
+    <string name="save_mix">Save mix</string>
+
+    <!-- Sound picker -->
+    <string name="picker_title">Add a sound</string>
+    <string name="picker_free">Free sounds</string>
+    <string name="picker_add">Add</string>
+    <string name="picker_in_mix">In the mix</string>
+    <string name="picker_preview">Preview %1$s</string>
+    <string name="picker_stop_preview">Stop the preview</string>
+    <string name="picker_previewing">8-second preview</string>
+    <string name="picker_in_call">Previews play when the call ends.</string>
+    <string name="picker_added">Added %1$s</string>
+    <string name="picker_full">The mix is full. Remove a layer to add another.</string>
+
+    <!-- Timer sheet -->
+    <string name="timer_title">Sleep timer</string>
+    <string name="timer_duration">Play for</string>
+    <string name="timer_fade">Fade out</string>
+    <string name="timer_evolving">Evolving night</string>
+    <string name="timer_evolving_body">Intensity and tone drift slowly inside a set band, so no two hours sound alike.</string>
+    <string name="timer_drift">Drift range</string>
+    <string name="timer_start">Start timer</string>
+    <string name="timer_off">Turn timer off</string>
+    <string name="timer_turned_off">Timer off</string>
+    <string name="minutes_short">%1$d min</string>
+    <string name="hours_short">%1$d h</string>
+    <string name="hours_minutes_short">%1$d h %2$d min</string>
+
+    <!-- Save sheet -->
+    <string name="save_name">Name</string>
+    <string name="save_name_help">Give the mix a name, like Desk.</string>
+    <string name="save_name_empty">The mix needs a name.</string>
+    <string name="save_changes">Save changes to %1$s</string>
+    <string name="save_as_new">Save as a new mix</string>
+    <string name="saved">Saved %1$s</string>
+    <string name="save_at_cap">Three mixes are saved, which is what the free version keeps.</string>
+    <string name="save_replace">Replace a mix</string>
+    <string name="save_replace_pick">Pick the mix to replace</string>
+    <string name="save_replace_one">Replace %1$s</string>
+    <string name="save_replaced">Replaced %1$s with %2$s</string>
+    <string name="offer_line">More layers and sounds come with the unlock</string>
+    <string name="offer_action">See what it adds</string>
+
+    <!-- Mixes -->
+    <string name="mixes_title">Mixes</string>
+    <string name="mixes_empty_title">No mixes yet</string>
+    <string name="mixes_empty_body">Save a mix from Listen to keep it here.</string>
+    <string name="mixes_open_listen">Open Listen</string>
+    <string name="mixes_export">Export mixes</string>
+    <string name="mixes_import">Import mixes</string>
+    <string name="mixes_not_file">That file is not a Rainfold mix file.</string>
+    <string name="mixes_newer">That file comes from a newer Rainfold. Update the app, then import it again.</string>
+    <string name="mixes_read_failed">The file could not be read. Pick it again from its folder.</string>
+    <string name="mixes_write_failed">The file could not be written. Pick another folder and export again.</string>
+    <string name="mixes_nothing_to_export">Save a mix first, then export it.</string>
+    <string name="mixes_reorder_hint">Long-press a mix and drag to reorder.</string>
+    <string name="mix_more">More for %1$s</string>
+    <string name="mix_rename">Rename</string>
+    <string name="mix_duplicate">Duplicate</string>
+    <string name="mix_delete">Delete</string>
+    <string name="mix_move_up">Move up</string>
+    <string name="mix_move_down">Move down</string>
+    <string name="mix_deleted">Deleted %1$s</string>
+    <string name="mix_duplicated">Duplicated %1$s</string>
+    <string name="mix_renamed">Renamed to %1$s</string>
+    <string name="mix_playing">Playing</string>
+    <string name="mix_partly_locked">Some layers are part of the unlock</string>
+    <string name="rename_title">Rename mix</string>
+    <plurals name="mixes_exported">
+        <item quantity="one">Exported %d mix</item>
+        <item quantity="other">Exported %d mixes</item>
+    </plurals>
+    <plurals name="mixes_imported">
+        <item quantity="one">Imported %d mix</item>
+        <item quantity="other">Imported %d mixes</item>
+    </plurals>
+    <plurals name="mixes_skipped">
+        <item quantity="one">%d layer used a sound this version does not have and was left out.</item>
+        <item quantity="other">%d layers used sounds this version does not have and were left out.</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_default_fade">Default fade</string>
+    <string name="settings_purchase">Purchase</string>
+    <string name="settings_unlocked">Everything is unlocked on this phone</string>
+    <string name="settings_restore_done">Purchase restored</string>
+    <string name="settings_restore_none">Google Play has no unlock on this account.</string>
+    <string name="settings_restore_no_answer">Google Play is not reachable. Connect once to buy or restore.</string>
+    <string name="settings_help">Help</string>
+    <string name="settings_battery">Battery help</string>
+    <string name="settings_battery_body">Keep sound playing all night on phones that stop apps early</string>
+    <string name="settings_licences">Licences</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_support">Support email</string>
+    <string name="settings_counts">Count nights and saved mixes</string>
+    <string name="settings_counts_body">Kept on this phone only and never sent.</string>
+    <string name="settings_counts_value">%1$d nights played, %2$d mixes saved</string>
+    <string name="settings_email_failed">No email app is set up. Write to %1$s.</string>
+
+    <!-- Battery help -->
+    <string name="battery_title">Battery help</string>
+    <string name="battery_lead">Rainfold plays through a media service that Android keeps running while sound is on. Some phones still stop it to save battery.</string>
+    <string name="battery_step_1">Open the battery optimisation list below and set Rainfold to Not optimised or Unrestricted.</string>
+    <string name="battery_step_2">On Samsung phones, also remove Rainfold from Sleeping apps and Deep sleeping apps under Battery, Background usage limits.</string>
+    <string name="battery_step_3">On Xiaomi, Oppo, Vivo and OnePlus phones, allow Rainfold to auto-start and run in the background in the app\'s battery settings.</string>
+    <string name="battery_open">Open battery optimisation list</string>
+    <string name="battery_fallback">Open App info and set Battery to Unrestricted.</string>
+    <string name="battery_open_app_info">Open App info</string>
+
+    <!-- Licences and privacy -->
+    <string name="licences_title">Licences</string>
+    <string name="licences_sounds_title">Sounds</string>
+    <string name="licences_sounds_body">Every sound in Rainfold is synthesised on the phone as it plays. No recordings are bundled and nothing is downloaded.</string>
+    <string name="licences_fonts_title">Fonts</string>
+    <string name="licences_bricolage">Bricolage Grotesque. Copyright 2022 The Bricolage Grotesque Project Authors. Licensed under the SIL Open Font License, Version 1.1.</string>
+    <string name="licences_figtree">Figtree. Copyright 2022 The Figtree Project Authors. Licensed under the SIL Open Font License, Version 1.1.</string>
+    <string name="licences_libraries_title">Libraries</string>
+    <string name="licences_libraries_body">Android Jetpack (Compose, Room, DataStore, Media3, Navigation), Kotlin and kotlinx libraries, and the Google Play Billing Library, under the Apache License 2.0 or the Android Software Development Kit License.</string>
+    <string name="licences_ofl_note">The full SIL Open Font License text ships with the source code and is available at openfontlicense.org.</string>
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_lead">Rainfold collects nothing and sends nothing. It has no internet permission, no account, no ads and no analytics.</string>
+    <string name="privacy_stored">Your mixes, the sound on Listen and your settings are stored on this phone. Export mixes writes them to a file you choose; uninstalling the app or clearing its storage deletes them.</string>
+    <string name="privacy_purchases">The one optional purchase is made in the Google Play Store app under Google\'s terms. Rainfold only asks Google Play whether this Google account owns the unlock, keeps that answer on the phone and sends nothing.</string>
+    <string name="privacy_permissions_title">Permissions</string>
+    <string name="privacy_perm_fgs">Foreground service and media playback: keep sound playing with the screen off.</string>
+    <string name="privacy_perm_wake">Wake lock: holds the processor awake only while sound plays.</string>
+    <string name="privacy_perm_billing">com.android.vending.BILLING: lets the app ask the Google Play Store app to sell and confirm the one-time unlock.</string>
+
+    <!-- Widget -->
+    <string name="widget_label">Rainfold resume</string>
+    <string name="widget_description">Resume your last mix with one tap</string>
+    <string name="widget_resume">Tap to resume</string>
+    <string name="widget_playing">Playing</string>
+
+    <!-- One-time unlock (product id full_unlock). Every line must stay true of the binary and match
+         store/listing.md. -->
+    <string name="unlock_title">Unlock everything</string>
+    <string name="unlock_close">Not now</string>
+    <string name="unlock_back">Back</string>
+    <string name="unlock_body">One payment. No subscription.</string>
+    <string-array name="unlock_features">
+        <item>Up to 6 layers in a mix</item>
+        <item>Unlimited named mixes</item>
+        <item>Storm with thunder, wind, surf, stream, fire, air conditioner and train</item>
+        <item>Crickets and cafe murmur</item>
+        <item>Evolving night: intensity and tone drift slowly</item>
+        <item>A Quick Settings tile that starts or pauses the last mix</item>
+    </string-array>
+    <string name="unlock_buy">Unlock for %1$s</string>
+    <string name="unlock_restore">Restore purchase</string>
+    <string name="unlock_checking">Checking with Google Play</string>
+    <string name="unlock_done">Everything is unlocked.</string>
+    <string name="unlock_pending">Payment pending. Everything opens when Google Play confirms it.</string>
+    <string name="unlock_cancelled">Purchase cancelled. Nothing was charged.</string>
+    <string name="unlock_failed">The purchase did not finish. Your mixes are unchanged.</string>
+    <string name="unlock_not_owned">Google Play has no unlock on this account.</string>
+    <string name="unlock_unavailable">Google Play cannot sell the unlock on this phone right now.</string>
+    <string name="unlock_not_offered">Google Play is not offering the unlock right now. Try again in a minute.</string>
+    <string name="unlock_offline">Google Play is not reachable. Connect once to buy or restore.</string>
+    <string name="unlock_no_answer">Google Play did not answer. Connect once, then restore again.</string>
+    <string name="unlock_account_note">The unlock belongs to the Google account that bought it.</string>
+    <string name="unlock_support">Help with a purchase or a refund: %1$s</string>
+    <string name="unlock_free_note">Every noise colour, the fan, rain, the timer, the widget, three saved mixes and export stay free.</string>
+    <string name="unlock_more_sounds">More sounds come with the unlock</string>
+    <string name="unlock_add_layer">Up to 6 layers with the unlock</string>
+    <string name="unlock_part_of">Part of the unlock</string>
+    <string name="unlock_unlimited_mixes">Unlock unlimited mixes</string>
+    <string name="unlock_reason_layers">Mix up to six layers at once.</string>
+    <string name="unlock_reason_sounds">Storm, surf, fire and six more sounds.</string>
+    <string name="unlock_reason_mixes">Keep as many named mixes as you like.</string>
+    <string name="unlock_reason_evolving">Let the night drift slowly, so no two hours sound alike.</string>
+    <string name="unlock_reason_tile">Start or pause the last mix from Quick Settings.</string>
+    <string name="unlock_everything_row">Unlock everything</string>
+</resources>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#159EBC"/>
+      <stop offset="1" stop-color="#0E809E"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6F7FA"/>
+    </linearGradient>
+    <clipPath id="drop">
+      <path d="M54 22 C60.5 33.5 75 47 75 65 A21 21 0 0 1 33 65 C33 47 47.5 33.5 54 22 Z"/>
+    </clipPath>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+  <g id="bg">
+    <rect width="108" height="108" fill="url(#ground)"/>
+  </g>
+  <g id="fg">
+    <!-- A raindrop folded into three stacked slabs, the Fold of sound layers. -->
+    <path d="M55.5 25.5 C62 37 76.5 50.5 76.5 68.5 A21 21 0 0 1 34.5 68.5 C34.5 50.5 49 37 55.5 25.5 Z" fill="#0D4F5E" opacity="0.4" filter="url(#soft)"/>
+    <g transform="translate(-2 0)"><g clip-path="url(#drop)">
+      <rect x="26" y="18" width="56" height="25" fill="url(#sheen)"/>
+      <rect x="26" y="43" width="56" height="3.6" fill="#12323A"/>
+    </g></g>
+    <g transform="translate(2 0)"><g clip-path="url(#drop)">
+      <rect x="26" y="50.2" width="56" height="12" fill="url(#sheen)"/>
+      <rect x="26" y="62.2" width="56" height="3.6" fill="#12323A"/>
+    </g></g>
+    <g clip-path="url(#drop)">
+      <rect x="26" y="70" width="56" height="12.4" fill="url(#sheen)"/>
+      <rect x="26" y="82.4" width="56" height="8" fill="#12323A"/>
+    </g>
+  </g>
+  <g id="mono" fill="#12323A">
+    <g transform="translate(-2 0)"><g clip-path="url(#drop)"><rect x="26" y="18" width="56" height="28.6"/></g></g>
+    <g transform="translate(2 0)"><g clip-path="url(#drop)"><rect x="26" y="50.2" width="56" height="15.6"/></g></g>
+    <g clip-path="url(#drop)"><rect x="26" y="70" width="56" height="20"/></g>
+  </g>
+</svg>

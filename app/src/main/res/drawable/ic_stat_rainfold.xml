@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- A drop over three folded bands. Status bar icons use only the alpha channel. -->
+    <path
+        android:fillColor="#F6FAFA"
+        android:pathData="M12,2.5c-2.6,2.9 -4.2,5.2 -4.2,7.2c0,2.3 1.9,4.1 4.2,4.1s4.2,-1.8 4.2,-4.1C16.2,7.7 14.6,5.4 12,2.5z" />
+    <path
+        android:fillColor="#F6FAFA"
+        android:pathData="M3,15.5h18v1.8H3zM5,18.6h14v1.8H5zM7.5,21.2h9V22.8h-9z" />
+</vector>

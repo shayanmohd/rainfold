@@ -1,0 +1,8 @@
+<resources>
+    <color name="window_background">#0E1E23</color>
+    <color name="widget_pane">#16292F</color>
+    <color name="widget_ink">#E1EDEE</color>
+    <color name="widget_drizzle">#93ABB0</color>
+    <color name="widget_accent">#6FC2D3</color>
+    <color name="widget_on_accent">#0E1E23</color>
+</resources>

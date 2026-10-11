@@ -1,0 +1,15 @@
+{
+  "background": "#0E809E",
+  "text": "#FFFFFF",
+  "frame": "#12323A",
+  "font": "fonts/bricolagegrotesque_semibold.ttf",
+  "weight": 600,
+  "shots": [
+    { "src": "screenshots-raw/01-listen-playing.png", "out": "screenshots/01-listen-playing.png", "caption": "Brown noise and rain, made live" },
+    { "src": "screenshots-raw/02-fold-drag.png", "out": "screenshots/02-fold-drag.png", "caption": "Drag a layer for volume and tone" },
+    { "src": "screenshots-raw/03-sleep-timer.png", "out": "screenshots/03-sleep-timer.png", "caption": "A timer that fades out slowly" },
+    { "src": "screenshots-raw/04-lock-screen.png", "out": "screenshots/04-lock-screen.png", "caption": "Plays on with the phone locked" },
+    { "src": "screenshots-raw/05-unlock-sounds.png", "out": "screenshots/05-unlock-sounds.png", "caption": "Storm, surf and more in the unlock" },
+    { "src": "screenshots-raw/06-mixes-export.png", "out": "screenshots/06-mixes-export.png", "caption": "Your mixes, saved and exported" }
+  ]
+}

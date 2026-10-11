@@ -1,0 +1,10 @@
+<resources>
+    <color name="window_background">#E9F1F2</color>
+    <color name="ic_launcher_background">#E9F1F2</color>
+    <!-- The widget draws outside Compose, so it reads the same blueprint tokens from here. -->
+    <color name="widget_pane">#F6FAFA</color>
+    <color name="widget_ink">#12262C</color>
+    <color name="widget_drizzle">#4A6066</color>
+    <color name="widget_accent">#1A7486</color>
+    <color name="widget_on_accent">#F6FAFA</color>
+</resources>

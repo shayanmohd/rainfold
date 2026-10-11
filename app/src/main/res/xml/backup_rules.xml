@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and older. The unlock is read back from Google Play, never restored from a backup. -->
+<full-backup-content>
+    <exclude domain="file" path="datastore/entitlement.preferences_pb" />
+</full-backup-content>
