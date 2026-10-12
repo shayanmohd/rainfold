@@ -54,7 +54,7 @@
   .top span { font-family: "Bricolage", sans-serif; font-weight: 600; font-size: 20px; }
 
   /* Hero: asymmetric split */
-  .hero { display: grid; gap: 40px; padding: 24px 0 72px; align-items: center; }
+  .hero { display: grid; gap: 40px; padding-top: 24px; padding-bottom: 72px; align-items: center; }
   .hero h1 { font-size: clamp(36px, 6vw, 60px); line-height: 1.04; max-width: 13ch; }
   .hero p { margin-top: 20px; font-size: 19px; color: var(--drizzle); max-width: 34ch; }
   .cta {
@@ -73,7 +73,7 @@
   }
   .hero .phone { width: min(340px, 82vw); justify-self: center; }
   @media (min-width: 860px) {
-    .hero { grid-template-columns: 1.15fr 0.85fr; padding: 40px 0 112px; }
+    .hero { grid-template-columns: 1.15fr 0.85fr; padding-top: 40px; padding-bottom: 112px; }
     .hero .phone { justify-self: end; margin-right: 24px; }
   }
 
