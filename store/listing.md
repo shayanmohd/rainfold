@@ -63,7 +63,7 @@ First release: noise colours, fan and rain made live, mixes of two layers, three
 
 ## Category
 <!-- one Play category, for example Productivity or Tools. -->
-Health & Fitness (Music & Audio if the Health apps declaration blocks review)
+Music & Audio (Health & Fitness was tried first; that category requires declaring a health feature, which this app does not have)
 
 
 ## Content rating
